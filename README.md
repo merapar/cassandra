@@ -1,5 +1,1 @@
-Cassandra in Docker
-===
-
-This repository provides everything you need to run Cassandra in Docker, and is tuned for fast
-container startup.
+This repository contains everything you need in order to run Cassandra 2.2.9 in AWS, using Kubernetes.
