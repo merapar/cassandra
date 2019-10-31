@@ -865,7 +865,7 @@ tracetype_repair_ttl: 604800
 
 # By default, Cassandra logs GC Pauses greater than 200 ms at INFO level
 # This threshold can be adjusted to minimize logging if necessary
-# gc_log_threshold_in_ms: 200
+gc_log_threshold_in_ms: 500
 
 # GC Pauses greater than gc_warn_threshold_in_ms will be logged at WARN level
 # If unset, all GC Pauses greater than gc_log_threshold_in_ms will log at
